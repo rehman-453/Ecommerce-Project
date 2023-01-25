@@ -11,7 +11,7 @@
 			<div class="row">
 			<div class="col-xxl-6 row5">
 				    
-                     <h1>LOGIN / SIGNUP</h1>
+                     <h1>CONTACT US</h1>
                      
 			</div>
 			<div class="col-xxl-6 row6">
@@ -24,35 +24,33 @@
 </section>
 
 
-<section class="boxx1">
+<section class="boxx">
 	<div class="container">
 		<div class="row">
-			<div class="col-xxl-6 box3">
-				<h1>Login To Your Account</h1>
-				<input type="text" placeholder=" &nbsp;&nbsp;User Name" class="name" id="boxes"><br>
-                <input type="text" placeholder=" &nbsp;&nbsp;Passowrd" class="address" id="boxes"><br>
-                <button>LOGIN</button><br>
-                <input type="checkbox" id="rememberme" name="Rememberme" class="checkbox"><label for="Rememberme">&nbsp;&nbsp;Remember me</label>
-                <a href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Forgot Password?</a>
+			<div class="col-xxl-6 box1">
+				<h1>Get in Touch</h1>
+				<p class="Lipsum">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud.</p>
+				<h6>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-paper-plane"></i>&nbsp;&nbsp;&nbsp;&nbsp;Email :</h6>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;your@mail.com</p>
+				<h6>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-phone"></i>&nbsp;&nbsp;&nbsp;&nbsp;Phone :</h6>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+123 456 7890</p>
+				<h6>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Address :</h6>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lorem Ipsum, 4586 Street</p>
 			</div>
 
 
-			<div class="col-xxl-6 box4">
-				<h1>Register Your Account</h1>
-				<input type="text" placeholder=" &nbsp;&nbsp;First Name" class="fname" id="boxes1">
-                <input type="text" placeholder=" &nbsp;&nbsp;Last Name" class="lname" id="boxes1"><br>
-                <input type="text" placeholder=" &nbsp;&nbsp;Email Address" class="email" id="boxes"><br>
-                <input type="text" placeholder=" &nbsp;&nbsp;Password" class="password" id="boxes"><br>
-                <input type="text" placeholder=" &nbsp;&nbsp;Retype Password" class="fname" id="boxes"><br>
-                
-                <input type="checkbox" id="rememberme" name="Rememberme" class="checkbox"><label for="Rememberme">&nbsp;&nbsp;By creating an account, You agree to our..&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                 <a href="#">Term & Conditions</a>
-
-                <button>CREATE ACCOUNT</button><br>
-               
-
-			</div>
-
+			 <div class="col-xxl-6 box2">
+                        <form>
+                            <h1>CONTACT US</h1>
+                            <input type="text" placeholder=" &nbsp;&nbsp;Name" class="name"><br>
+                            <input type="text" placeholder=" &nbsp;&nbsp;Address" class="address"><br>	
+                            <input type="text" placeholder=" &nbsp;&nbsp;Email" class="email"><br>	
+                            <input type="text" placeholder=" &nbsp;&nbsp;Type" class="type"><br>		
+                        </form>
+                        <button>Submit</button>
+                    </div>
 
 
 		</div>
