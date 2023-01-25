@@ -39,16 +39,14 @@
 
 			<div class="col-xxl-6 box4">
 				<h1>Register Your Account</h1>
-				<input type="text" placeholder=" &nbsp;&nbsp;First Name" class="fname" id="boxes1">
-                <input type="text" placeholder=" &nbsp;&nbsp;Last Name" class="lname" id="boxes1"><br>
-                <input type="text" placeholder=" &nbsp;&nbsp;Email Address" class="email" id="boxes"><br>
-                <input type="text" placeholder=" &nbsp;&nbsp;Password" class="password" id="boxes"><br>
-                <input type="text" placeholder=" &nbsp;&nbsp;Retype Password" class="fname" id="boxes"><br>
-                
-                <input type="checkbox" id="rememberme" name="Rememberme" class="checkbox"><label for="Rememberme">&nbsp;&nbsp;By creating an account, You agree to our..&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-                 <a href="#">Term & Conditions</a>
-
-                <button>CREATE ACCOUNT</button><br>
+				<form action="operation.php" method="Post">
+					<input name="first_name" type="text" placeholder=" &nbsp;&nbsp;First Name" class="fname" id="boxes1" required>
+					<input name="last_name" type="text" placeholder=" &nbsp;&nbsp;Last Name" class="lname" id="boxes1" required><br>
+					<input name="email" type="email" placeholder=" &nbsp;&nbsp;Email Address" class="email" id="boxes" required><br>
+					<input name="password" type="password" placeholder=" &nbsp;&nbsp;Password" class="password" id="boxes" required><br>
+					<input name="cnfrm_password" type="password" placeholder=" &nbsp;&nbsp;Retype Password" class="fname" id="boxes" required><br>
+					<button type="submit" name="btn_register">CREATE ACCOUNT</button>
+				</form>
                
 
 			</div>
